@@ -1,0 +1,37 @@
+{
+  "name": "parcel_jquery_ts_sample",
+  "version": "1.0.0",
+  "description": "This is a JQuery and Typescript sample by the Parcel.",
+  "keywords": [
+    "parcel",
+    "jquery",
+    "typescript"
+  ],
+  "author": "bit2zero",
+  "license": "ISC",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "parcel src/index.html src/bundle.ts --out-dir test --open",
+    "build": "parcel build src/index.html src/bundle.ts --public-url ./ --no-source-maps"
+  },
+  "engines": {
+    "node": "^12.14.1",
+    "npm": "^6.13.4"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.3.31",
+    "jquery": "^3.4.1",
+    "src": "^1.1.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bit2zero/parcel_jquery_ts_sample.git"
+  }
+}
